@@ -1,0 +1,172 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Zeyada', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Nosifer', cursive;
+*/
+
+body {
+  background-color: #FDEDEC;
+
+}
+
+.center {
+  margin: auto;
+  width: 25%;
+  border: none solid black;
+  padding: 10px;
+}
+.spotify {
+  width: 25%;
+  margin: 3;
+
+
+}
+
+#homePageHeader {
+  font-family: "Arizonia", cursive;
+  font-size: 85px;
+  color:black;
+  text-shadow: -150px 0 white,0 45px white,150px 0 white,0 -45px white, 0px 0px 50px #FF00FF;
+  margin:30;padding:20;
+  margin-bottom: 50;
+}
+
+#branchPagesHeaders {
+  font-family: "Arizonia", cursive;
+  font-size: 50px;
+  color:black;
+  text-shadow: -100px 0 white,0 20px white,100px 0 white,0 -20px white, 0px 0px 50px #FF00FF;
+  margin: 25;
+
+}
+
+h2 {
+  font-family: 'Nosifer', cursive;
+  font-size: 75px;
+  margin: 0;
+  font-weight:bolder;
+  margin-bottom: 20
+  text:responsive
+}
+
+iframe {
+  margin-left: 100;
+  margin-top: 50;
+}
+
+.div-fixed {
+  position: fixed;
+
+}
+
+p {
+  font-family: "Nosifer";
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 4;
+  margin-top: 2;
+  text-align: center;
+
+}
+
+#p2{
+  font-family: 'Dancing Script';
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 6;
+  margin-top: 2
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+}
+
+.index-divs {
+  width: 55%;
+  height: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height:40vw;
+
+}
+
+.img-circle {
+  border-radius:50%;
+  height: 25vw;
+  width: 25vw;
+  display: inline-block;
+}
+
+.img-bwvb{
+  margin-bottom: 10px;
+  width: 160px;
+  height:160px;
+  display:block;
+  background:transparent url('twitterbird.png') center top no-repeat;
+}
+
+.img-bwvb:hover {
+  background-image: url('.../assets/volleyball.jpg') no-repeat center center;
+}
+
+#div-about {
+  background: url('../assets/dramatic.jpg') no-repeat center center;
+  border: 5px solid black;
+  font-family: "Arizonia";
+  font-size: 42px;
+  background-size: cover;
+
+}
+
+#div-projects{
+  background: url('../assets/stoneMountain.jpg') no-repeat center center;
+  border: 5px solid black;
+  font-family: "Arizonia";
+  font-size: 42px;
+  background-size: cover;
+}
+
+#div-resume{
+  background: url('../assets/bwOcean.jpg') no-repeat center center;
+  border: 5px solid black;
+  font-family: "Arizonia";
+  font-size: 42px;
+  background-size: cover;
+}
+
+#div-photography{
+  background: url('../assets/bwBalloon.jpg') no-repeat center center;
+  border: 5px solid black;
+  font-family: "Arizonia";
+  font-size: 42px;
+  background-size: cover;
+}
+
+#div-contactInfo{
+  background: url('../assets/bwVolleyball.jpg') no-repeat center center;
+  border: 5px solid black;
+  font-family: "Arizonia";
+  font-size: 42px;
+  background-size: cover;
+}
+
+#div-socialMedia{
+  background: url('../assets/bwBA.jpg') no-repeat center center;
+  border: 5px solid black;
+  font-family: "Arizonia";
+  font-size: 42px;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+   body { font-size: 2em; }
+
+}
